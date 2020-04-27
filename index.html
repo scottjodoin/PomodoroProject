@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="reset.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Pomodoro Clock</title>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <div class="content-title">
+        <h1>Pomodoro Timer</h1>
+      </div>
+      <div class="leaf-wrapper">
+        <img class="tomato-leaf" src="tomato-leaf.png" alt="" />
+      </div>
+      <div class="inner-module">
+        <div class="g-container">
+          <span class="selection-options-container">
+            <h2>Session</h2>
+            <div class="number-input-container">
+              <span id="session-down-arrow">↓</span>
+              <span id="session-selection-value">25</span>
+              <span id="session-up-arrow">↑</span>
+            </div>
+          </span>
+          <span class="break-options-container">
+            <h2>Break</h2>
+            <div class="number-input-container">
+              <span id="break-down-arrow">↓</span>
+              <span id="break-selection-value">5</span>
+              <span id="break-up-arrow">↑</span>
+            </div>
+          </span>
+        </div>
+        <div class="g-container column large">
+          <h2 id="timer-title">Session</h2>
+          <div id="timer-display">25:00</div>
+          <div>
+            <span id="play-pause">▶︎</span>
+            <span id="reset-timer">◼︎</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

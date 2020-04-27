@@ -1,0 +1,68 @@
+html {
+  background-color: #d6b189;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Opera and Firefox */
+}
+
+span {
+  cursor: pointer;
+}
+
+.g-container {
+  margin: 1em;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+
+.content-title {
+  color: red;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+.leaf-wrapper {
+  z-index: 3;
+}
+.tomato-leaf {
+  width: 80px;
+  margin-bottom: -25px;
+}
+
+.inner-module {
+  background-color: #be1c14;
+  border-radius: 50%;
+  padding: 2em;
+  z-index: 2;
+}
+
+#timer-display {
+  margin-bottom: 1em;
+}
+.selection-options-container {
+  margin: 0 1em;
+}
+
+.column {
+  flex-direction: column;
+  align-items: center;
+}
+
+.large {
+  font-size: 1.5em;
+}
